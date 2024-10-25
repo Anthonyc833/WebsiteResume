@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+body{
+    height: 100vh;
+    background: #212529;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 25px;
+}
+
+.navbar h2{
+    color: greenyellow;
+    font-weight: 600;
+}
+
+.navbar ul{
+    display: flex;
+
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover{
+    color:greenyellow;
+}
+
+.hire-btn{
+    background: greenyellow;
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+
+
+}
+
+.hire-btn:hover{
+    background: yellow;
+
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 25px;
+}
+
+.section1 h4{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.section1 span{
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+.section1 p.title{
+   font-size: 44px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.section1 p.subtitle{
+    font-size: 16px;
+    color:#fff;
+    margin-top: 20px;
+}
+
+.section1 img{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 100px;
+}
+.section1 h2{
+    color: greenyellow;
+    font-weight: 600;
+
+}
+
+.p {
+    display: flex;
+    align-items: right;
+}
+
+.section2{
+    margin-top: 50px;
+    padding:  0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.section2 .item{
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.section2 .item:hover{
+    border-color: green;
+}
+
+.section2 .item .icon{
+    width: 46px;
+    height: 46px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+
+}
+
+.section2 .item .icon{
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+.section2 .item:hover .icon{
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+.section2 .item .icon i{
+    justify-content: center;
+    font-size: 30px;
+}
+
+.section2 .item .info{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section2 .item .info h3{
+    justify-content: center;
+    color: greenyellow;
+    font-size: 28px;
+}
+
+.section2 .item .info p {
+    padding: 0 0 10px 10px;
+    justify-content: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.section2 .item > i{
+    color: #fff;
+    font-size: 30px;
+    transition: color 0.3 ease;
+
+}
+
+.section2 .item:hover > i{
+    color: green;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 0 50px;
+}
+
+.section3 .info{
+    color:#fff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+
+.section3 .info p{
+    color: #ccc;
+    font-size: 14px;
+
+}
+
+.section4{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 0 50px;
+}
+
+.section4 .info{
+    color:#fff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+
+.section4 .info p{
+    color: #ccc;
+    font-size: 14px;
+
+}
+
+footer{
+    position: relative;
+    background: #1c1c1c;
+    padding: 80px 50px 40px;
+    margin-top: 100px;
+}
+
+footer .start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: darkgreen;
+    padding: 30px 25px;
+    border-radius: 15px;
+    width: 70%;
+    top: -16%;
+    left: 15%;
+}
+
+footer .start p{
+    font-size: 13px;
+    width: 50%;
+}
+
+footer .start button{
+    background: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+footer .start button:hover{
+    background-color: #fff;
+    border-color: #fff ;
+}
+
+footer .cols{
+    display: flex;
+    align-items: start;
+}
+
+footer .cols .about-col{
+    flex:3;
+}
+
+footer .cols .about-col h3{
+    color: greenyellow;
+    margin-bottom: 20px;
+}
+
+footer .cols .about-col p{
+    color:#ccc;
+    font-size: 13px;
+}
+
+footer .cols .links-col{
+    flex:3;
+}
+
+footer .cols .links-col h4, footer .cols .news-cols h4{
+    color:#fff;
+    margin-bottom: 20px;
+    justify-content: right;
+}
+
+footer .cols .links-col a{
+    display: block;
+    text-decoration: none;
+    justify-content: right;
+    color: #7b7b7b;
+    font-size: 14px;
+    line-height: 26px;
+    transition: color 0.3s ease;
+}
+
+footer .cols .links-col a:hover{
+    color: yellowgreen;
+
+}
+
+footer .cols .news-col{
+    flex:3;
+}
+
+footer .cols .news-col p{
+    color:#7b7b7b;
+    font-size: 15px;
+}
+
+footer .cols .news-col form{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+footer .cols .news-col form input{
+    width:100%;
+    background: #212529;
+    border: none;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+footer .cols .news-col form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: yellowgreen;
+    border:none;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    right: 0;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+
+footer .cols .news-col form button:hover{
+    background-color: yellowgreen;
+}
+
+
+
