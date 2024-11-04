@@ -178,7 +178,7 @@ body{
 
     footer .start {
         width: 80%;
-        padding: 10px;
+        padding: 20px;
         left: 5%;
     }
 
@@ -355,7 +355,7 @@ footer .start{
     justify-content: center;
     position: absolute;
     background-color: darkgreen;
-    padding: 15px;
+    padding: 20px;
     border-radius: 15px;
     width: 80%;
     top: -16%;
