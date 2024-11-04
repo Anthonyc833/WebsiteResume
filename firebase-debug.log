@@ -1,0 +1,10 @@
+[debug] [2024-10-24T04:20:55.836Z] ----------------------------------------------------------------------
+[debug] [2024-10-24T04:20:55.839Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-10-24T04:20:55.839Z] CLI Version:   13.22.1
+[debug] [2024-10-24T04:20:55.839Z] Platform:      win32
+[debug] [2024-10-24T04:20:55.839Z] Node Version:  v20.12.0
+[debug] [2024-10-24T04:20:55.839Z] Time:          Thu Oct 24 2024 12:20:55 GMT+0800 (Australian Western Standard Time)
+[debug] [2024-10-24T04:20:55.840Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-24T04:20:55.843Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as hexolomgamingtage21@gmail.com
